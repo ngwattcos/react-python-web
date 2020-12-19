@@ -21,3 +21,5 @@ https://github.com/ngwattcos/pythonxyc
 6. You should see the previously-empty folder contain 2 compiled JSX files, along with a directory that contains another JSX file.
 
 Unfortunately, while the .pyx files can be compiled into .jsx files, they aren't used after being imported by App.js. This is because we discovered at the last minute that our translated implementation of exports was invalid - the old style of setting the object `module.exports = ...` has now been drooped in favor of `export default` and `export { a, b, c}`, which was not anticipated. It is a small change, however, and our implementation is correct based on our understanding at the time.
+
+Another slight problem is the suppression of error message. While lexing errors are caught gracefully and the error messages are printed, the wrapper module catches and suppresses warnings if there is a parsing/syntax error. This was an unexpected change from beta, which had very informative error messages all around.
