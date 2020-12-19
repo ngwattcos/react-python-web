@@ -1,6 +1,16 @@
 # react-python-web
 A website showcasing and testing react-python.
 
+## Components
+**link to npmjs page**
+https://www.npmjs.com/package/react-python
+
+**link to `react-python` repo**
+https://github.com/ngwattcos/react-python
+
+**link to `pythonxyc` transpiler**
+https://github.com/ngwattcos/pythonxyc
+
 ## Instructions
 
 1. `cd` to the inner directory `react-python-web`
