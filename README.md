@@ -2,7 +2,7 @@
 A website showcasing and testing react-python.
 
 ## Components
-**link to npmjs page**
+**link to `react-python` npmjs page**
 https://www.npmjs.com/package/react-python
 
 **link to `react-python` repo**
