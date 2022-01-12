@@ -36,6 +36,6 @@
     ]
   },
   "devDependencies": {
-    "react-python": "^1.0.8"
+    "react-python": "file:../../react-python/react-python-1.1.2.tgz"
   }
 }
